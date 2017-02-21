@@ -1,0 +1,373 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+html{
+	font-size: 11.7188px;
+}
+body{
+	font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	color: #333;
+	background: #fff;
+	min-width: 320px;
+	width: 100%;
+	height: 100px;
+}
+header{
+	width: 100%;
+	height: 4.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: #f9fafd;
+}
+header div{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 6rem;
+	right: 6rem;
+	text-align: center;
+	font-weight: 700;
+	line-height: 4.5rem;
+}
+#main{
+	color: #333;
+	font-size: 1.4rem;
+	background-color: #efefef;
+	border-bottom: 5rem solid #e0e0e0;
+	border-top: 4.6rem solid;
+}
+#main .per{
+	display: block;
+	margin-bottom: 1rem;
+	background-color: #fff;
+	background-image: url(imgs/bian.png);
+	line-height: 1.4rem;
+	background-repeat: repeat-x;
+	background-position: left top; 
+	background-size: auto .3rem;
+	position: relative;
+}
+#main .per div{
+	overflow: hidden;
+	display: block;
+}
+#main .per div:nth-of-type(3){
+	background-image: url(imgs/bian.png);
+	background-repeat: repeat-x;
+	background-position: left bottom; 
+	background-size: auto .3rem;
+}
+#main .per div p:nth-of-type(1){
+	padding: .7rem 1rem .7rem 1.5rem;
+	font-weight: 400;
+	text-align: left;
+	vertical-align: baseline;
+	width: 20%;
+	float: left;
+}
+#main .per div p:nth-of-type(2){
+	padding: .7rem 0;
+	float: left;
+	width: 50%;
+}
+#main .per a p{
+	position: absolute;
+	right: 0;
+	top: 1rem;
+	background-image: url(imgs/you.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: auto 1rem;
+	width: 17%;
+	padding: 10% 0;
+}
+
+#main .shops{
+	padding: .5rem 0 0 0;
+	margin-bottom: 1rem;
+	position: relative;
+	background-color: #fff;
+	display: block;
+	line-height: 5rem;
+	font-size: 1.4rem;
+}
+#main .shops .chao{
+	color: #999;
+	height: 3rem;
+	font-size: 1.2rem;
+	padding-left: 1.4rem;
+	background: 1.6rem top no-repeat;
+	background-size: 2rem;
+	line-height: 2rem;
+	display: block;
+}
+#main .shops .chao span{
+	background-color: #ffd600;
+	display: inline-block;
+	width: .4rem;
+	height: 1.2rem;
+	vertical-align: -.1rem;
+	border-radius: .2rem;
+	margin-right: .5rem;
+}
+#main .shops .cou{
+	display: block;
+	color: #e64f1a;
+	position: absolute;
+	right: 1.4rem;
+	top: .5rem;
+	font-size: 1.2rem;
+	width: 7rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	border-radius: 1.2rem;
+	border: 1px solid #ff3800;
+	text-align: center;
+}
+#main .shops .xxi{
+	color: #999;
+	font-size: 1.1rem;
+	line-height: 2rem;
+	padding-left: 1.4rem;
+}
+#main .shops .time{
+	border-top: 1px solid #e0e0e0;
+	background-image: url(imgs/you.png);
+	position: relative;padding-left: 1.4rem;
+	padding-right: 2.5rem;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: auto 1rem;
+}
+#main .shops .time span{
+	float: right;
+	line-height: 5rem;
+	font-size: 1.4rem;
+	color: #333;
+}
+#main .shops .time select{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+	background: 0 0;
+	opacity: 0;
+	font-size: 100%;
+	vertical-align: middle;
+}
+#main .shops .time span:nth-of-type(2){
+	color: #e64f1a;
+	line-height: 5rem;
+	font-size: 1.4rem;
+	float: none;
+}
+#main .shops .beizhu{
+	border-top: 1px solid #e0e0e0;
+	display: block;
+	position: relative;
+	padding-left: 1.4rem;
+	line-height: 5rem;
+}
+#main .shops .beizhu div{
+	position: absolute;
+	left: 8rem;
+	top: 0;
+	bottom: 0;
+	right: 2.2rem;
+	line-height: 5rem;
+}
+#main .shops .beizhu div input{
+	width: 100%;
+	height: 3.2rem;
+	border: 1px solid #cecece;
+	text-indent: .5rem;
+	border-radius: .5rem;
+	margin-left: .3rem;
+	font-size: 100%;
+}
+#main .shops ul{
+	width: 100%;
+}
+#main .shops ul li{
+	border-top: 1px solid #e0e0e0;
+	line-height: 4rem;
+	overflow: hidden;
+	position: relative;
+}
+#main .shops ul li .gou{
+	width: 5rem;
+	height: 8rem;
+	background-image: url(imgs/gou.png);
+	background-size: 1.8rem 1.8rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+#main .shops ul li .tu{
+	width: 5rem;
+	line-height: 4rem;
+	float: left;
+	padding: 1.5rem 0;
+}
+#main .shops ul li .tu div{
+	background-size: 100% 100%;
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	line-height: 4rem;
+	background-image: url(imgs/shop1.jpg);
+}
+#main .shops ul li .nei{
+	float: left;
+}
+#main .shops ul li .nei p{
+	padding-left: 1.4rem;
+	line-height: 4rem;
+}
+#main .shops ul li>p{
+	position: absolute;
+	width: 10rem;
+	height: 5rem;
+	line-height: 5rem;
+	right: 0;
+	color: #f40;position: static;
+	top: 0;
+	bottom: 0;
+	left: 10rem;
+}
+#main .shops ul li .nei p:nth-of-type(3){
+	position: absolute;
+	height: 5rem;
+	right: 5rem;
+	bottom: 1rem;
+	color: #f40;
+	width: 5rem;
+	z-index: 2;
+	box-sizing: border-box;
+	line-height: 5rem;
+	text-align: center;
+}
+#main .shops ul li .nei p:nth-of-type(3) span{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	font-weight: bold;
+	width: 2.6rem;
+	height: 2.6rem;
+	background: #ff4300 url(imgs/jia.png) no-repeat left center;
+	background-position: left center;
+	background-origin: border-box;
+	background-size: 200% 100%;
+	border-radius: 50%;
+	border: 1px solid #ffbe89;
+	line-height: 5rem
+}
+#main .shops ul li .nei p:nth-of-type(4){
+	position: absolute;
+	height: 5rem;
+	right: 0;
+	bottom: 1rem;
+	color: #f40;
+	width: 5rem;
+	z-index: 2;
+	box-sizing: border-box;
+	line-height: 5rem;
+	text-align: center;
+}
+#main .shops ul li .nei p:nth-of-type(4) span{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	font-weight: bold;
+	width: 2.6rem;
+	height: 2.6rem;
+	background: #ff4300 url(imgs/jia.png) no-repeat left center;
+	background-position: right center;
+	background-origin: border-box;
+	background-size: 200% 100%;
+	border-radius: 50%;
+	border: 1px solid #ffbe89;
+	line-height: 5rem
+}
+#main .shops ul li .nei div{
+	position: absolute;
+	height: 2rem;
+	right: 4.1rem;
+	bottom: 1.4rem;
+	color: #000;
+	width: 2rem;
+	z-index: 2;
+	line-height: 2rem;
+	text-align: center;
+}
+#main .shops .xuan{
+	border-top: 1px solid #e0e0e0;
+	padding-left: 1.4rem;
+}
+#main .shops .xuan div{
+	background-color: #ffd600;
+	width: 10rem;
+	text-align: center;
+	float: right;
+}
+#main .shops .xuan .quan{
+	background-image: url(imgs/meigou.png);
+	display: inline-block;
+	background-size: 1.8rem 1.8rem;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 0 2.5rem;
+}
+#main .shops .xuan .money{
+	color: #e64f1a;
+}
+#footer{
+	display: block;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	height: 5rem;
+	background-color: rgba(246,246,246,.95);
+	font-size: 1.4rem;
+	color: #333;
+}
+#footer li{
+	float: left;
+	position: relative;
+	font-size: 1.2rem;
+	color: #777;
+	text-align: center;
+	background: no-repeat center .6rem;
+	background-size: auto 2rem;
+	padding-top: 3rem;
+	width: 25%;
+}
+
+
+
+
+
+
+
+
+
+

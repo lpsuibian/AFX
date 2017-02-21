@@ -1,0 +1,89 @@
+<!-- 头部 -->
+<script type="text/html" id="topjson">
+	<%for (var i = 0; i< data.act_info[0].act_rows.length; i++) {%>
+		<li>
+			<div style = "background-image:url(<%=data.act_info[0].act_rows[i].activity.img%>)"></div>
+			<p><%=data.act_info[0].act_rows[i].activity.name%></p>
+		</li>
+	<%}%>
+</script>
+
+<!-- 三个图片 -->
+<script type="text/html" id="shopsjson">
+	<%for (var i = 0; i< 3; i++) {%>
+		<li style="background-image: url(<%=data.act_info[2].act_rows[i].activity.img%>)"></li>
+	<%}%>
+</script>
+
+<!-- 便利店 -->
+<script type="text/html" id="bianjson">
+	<div class="cvs" style="background-image: url(<%=data.act_info[3].act_rows[0].act_rows[0].chead_detail.img%>)"></div>
+	<ul class="hot">
+		<%for (var i = 0; i< data.act_info[3].act_rows[1].act_rows.length; i++) {%>
+			<li>
+				<div style="background-image: url(<%=data.act_info[3].act_rows[1].act_rows[i].cactivity_detail.img%>)"></div>
+			</li>
+		<%}%>
+	</ul>
+	<ul class="opt">
+		<%for (var i = 0; i< data.act_info[3].act_rows[2].act_rows.length; i++) {%>
+			<li>
+				<div style="background-image: url(<%=data.act_info[3].act_rows[2].act_rows[i].cicons_detail.img%>)">
+					<div><%=data.act_info[3].act_rows[2].act_rows[i].cicons_detail.name%></div>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+	<ul class="sna">
+		<%for (var i = 0; i< data.act_info[3].act_rows[3].act_rows.length; i++) {%>
+			<li>
+				<div style="background-image: url(<%=data.act_info[3].act_rows[3].act_rows[i].activity.img%>)"></div>
+			</li>
+		<%}%>
+	</ul>
+</script>
+
+<!-- 六个模块 -->
+<script type="text/html" id="styjson">
+	<%for (var i = 0; i< data.act_info[4].act_rows.length; i++) {%>
+		<li>
+			<div class="kind_top">
+				<span class="name"><%=data.act_info[4].act_rows[i].category_detail.name%></span>
+				<span class="more">更多&nbsp;&nbsp;&nbsp;</span>
+			</div>
+			<div class="img" style="background-image: url(<%=data.act_info[4].act_rows[i].activity.img%>)"></div>
+			<ul>
+				<li>
+					<div class="big">
+						<div style="background-image: url(<%=data.act_info[4].act_rows[i].category_detail.goods[0].img%>);"></div>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[0].name%></p>
+						<p>精选</p>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[0].specifics%></p>
+						<p>￥<%=data.act_info[4].act_rows[i].category_detail.goods[0].price%><span>￥<%=data.act_info[4].act_rows[i].category_detail.goods[0].market_price%></span></p>
+						<p><span></span></p>
+					</div>
+				</li>
+				<li>
+					<div class="big">
+						<div style="background-image: url(<%=data.act_info[4].act_rows[i].category_detail.goods[1].img%>);"></div>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[1].name%></p>
+						<p>精选</p>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[1].specifics%></p>
+						<p>￥<%=data.act_info[4].act_rows[i].category_detail.goods[1].price%><span>￥<%=data.act_info[4].act_rows[i].category_detail.goods[1].market_price%></span></p>
+						<p><span></span></p>
+					</div>
+				</li>
+				<li>
+					<div class="big">
+						<div style="background-image: url(<%=data.act_info[4].act_rows[i].category_detail.goods[2].img%>);"></div>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[2].name%></p>
+						<p>精选</p>
+						<p><%=data.act_info[4].act_rows[i].category_detail.goods[2].specifics%></p>
+						<p>￥<%=data.act_info[4].act_rows[i].category_detail.goods[2].price%><span>￥<%=data.act_info[4].act_rows[i].category_detail.goods[2].market_price%></span></p>
+						<p><span></span></p>
+					</div>
+				</li>
+			</ul>
+		</li>
+	<%}%>
+</script>

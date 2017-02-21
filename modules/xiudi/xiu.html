@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xiu</title>
+	<meta name = "viewport" content = "width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/xiu.css">
+</head>
+<body>
+	<header>
+		<span class="fan"></span>
+		<div>修改地址</div>
+		<span class="sou">保存</span>
+	</header>
+	<div id="main">
+		<form>
+			<ul>
+				<li>
+					<p>联系人</p>
+					<div>
+						<input type="text" value="梁鹏">
+					</div>
+				</li>
+				<li>
+					<p>&nbsp;</p>
+					<div>
+						<span><span></span>先生</span>
+						<span><span></span>女士</span>
+					</div>
+				</li>
+				<li>
+					<p>手机号码</p>
+					<div>
+						<input type="text" value="18201492311">
+					</div>
+				</li>
+				<li>
+					<p>所在城市</p>
+					<div>
+						<select>
+							<option value>请选择城市</option>
+							<option value="2" selected="">北京市</option>
+							<option value="22">上海市</option>
+							<option value="43">天津市</option>
+							<option value="424">广州市</option>
+							<option value="524">深圳市</option>
+							<option value="882">承德市</option>
+							<option value="926">廊坊市</option>
+							<option value="1644">南京市</option>
+							<option value="1692">苏州市</option>
+							<option value="2472">西安市</option>
+							<option value="2472">成都市</option>
+							<option value="3134">杭州市</option>
+							<option value="3268">三河市</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<p>所在地区</p>
+					<div>
+						<select>
+							<option value="2" selected="">物美三旗百汇店</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<p>详细地址</p>
+					<div>
+						<input type="text" value="2楼育知同创">
+					</div>
+				</li>
+			</ul>
+		</form>
+		<div class="del">
+			<div>删除地址</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	document.getElementsByClassName('fan')[0].onclick = function(){
+		history.back()
+	};
+</script>
+</html>

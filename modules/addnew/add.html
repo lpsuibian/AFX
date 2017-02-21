@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xiu</title>
+	<meta name = "viewport" content = "width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/add.css">
+</head>
+<body>
+	<header>
+		<span class="fan"></span>
+		<div>添加地址</div>
+		<span class="sou">保存</span>
+	</header>
+	<div id="main">
+		<form>
+			<ul>
+				<li>
+					<p>联系人</p>
+					<div>
+						<input type="text" value placeholder="收货人姓名">
+					</div>
+				</li>
+				<li>
+					<p>&nbsp;</p>
+					<div>
+						<span><span></span>先生</span>
+						<span><span></span>女士</span>
+					</div>
+				</li>
+				<li>
+					<p>手机号码</p>
+					<div>
+						<input type="text" value placeholder="鲜蜂侠联系您的电话">
+					</div>
+				</li>
+				<li>
+					<p>所在城市</p>
+					<div>
+						<select>
+							<option value selected="">请选择城市</option>
+							<option value="2">北京市</option>
+							<option value="22">上海市</option>
+							<option value="43">天津市</option>
+							<option value="424">广州市</option>
+							<option value="524">深圳市</option>
+							<option value="882">承德市</option>
+							<option value="926">廊坊市</option>
+							<option value="1644">南京市</option>
+							<option value="1692">苏州市</option>
+							<option value="2472">西安市</option>
+							<option value="2472">成都市</option>
+							<option value="3134">杭州市</option>
+							<option value="3268">三河市</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<p>所在地区</p>
+					<div>
+						<input type="text" value placeholder="请选择您的住宅小区、大厦或学校">
+					</div>
+				</li>
+				<li>
+					<p>详细地址</p>
+					<div>
+						<input type="text" value placeholder="请输入楼号门牌号等详细信息">
+					</div>
+				</li>
+			</ul>
+		</form>
+		<div class="del"></div>
+	</div>
+</body>
+<script type="text/javascript">
+	document.getElementsByClassName('fan')[0].onclick = function(){
+		history.back()
+	};
+</script>
+</html>

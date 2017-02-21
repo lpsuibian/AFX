@@ -1,0 +1,218 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+html{
+	font-size: 11.7188px;
+}
+body{
+	font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	color: #333;
+	background: #fff;
+	min-width: 320px;
+	width: 100%;
+	height: 100px;
+	background-color: #efefef;
+}
+header{
+	position: relative;
+	height: 10rem;
+	background: center center no-repeat;
+	background-size: 100% 100%;
+	font-size: 1.4rem;
+	color: #333;
+	background-color: #ffd600;
+}
+header div{
+	height: 6rem;
+	padding-left: 9rem;
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #fff;
+	background: 1.5rem bottom no-repeat;
+	background-size: auto 6rem;
+	background-image: url(../img/header.png);
+}
+header div p:nth-of-type(1){
+	line-height: 1rem;
+	margin: .7rem 0;
+}
+header div p:nth-of-type(2){
+	color: #e64f1a;
+	line-height: 2.8rem;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+	padding-left: 2.9rem;
+	font-size: 1rem;
+	background-image: url(../img/dji.png);
+}
+header div span{
+	position: absolute;
+	width: 1.1rem;
+	height: 1.9rem;
+	top: 40%;
+	right: 2rem;
+	background-size: 100% 100%;
+	background-image: url(../img/you.png);
+}
+#nav{
+	background-color: #f3c800;
+	height: 3.5rem;
+	color: #fff;
+	font-size: 1.2rem;
+	display: flex;
+}
+#nav .shop{
+	box-flex: 1;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	box-align: center;
+	justify-content: center;
+}
+#nav .shop span{
+	background-image: url(../img/shop.png);
+	display: inline-block;
+	line-height: 3.5rem;
+	padding-left: 3rem;
+	background-position: left center;
+	background-size: auto 1.8rem;
+	background-repeat: no-repeat;
+}
+#nav .gang{
+	width: 1px;
+	height: 60%;
+	background-color: #fff;
+	align-self: center;
+}
+#nav .dian{
+	box-flex: 1;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	box-align: center;
+	justify-content: center;
+}
+#nav .dian span{
+	background-image: url(../img/dian.png);
+	display: inline-block;
+	line-height: 3.5rem;
+	padding-left: 3rem;
+	background-position: left center;
+	background-size: auto 1.8rem;
+	background-repeat: no-repeat;
+}
+#main{
+	position: absolute;
+	padding-top: 1rem;
+	top: 13.5rem;
+	left: 0;
+	right: 0;
+	bottom: 0;}
+#main .ind{
+	margin: 1rem 0;
+	margin-top: 0;
+	background-color: #fff;
+	display: block;
+	font-size: 1.4rem;
+}
+#main .ind div{
+	border-bottom: 1px solid #e0e0e0;
+	background-image: url(../img/indyou.png);
+	padding: 1.4rem 2.5rem 1.4rem 1.5rem;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: auto 1rem;
+}
+#main .ind div span{
+	color: #999;
+	float: right;
+}
+#main .ind ul{
+	overflow: hidden;
+}
+#main .ind ul li{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding-top: 13%;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.2rem;
+	background: center 40% no-repeat;
+	background-size: auto 25%;
+}
+#main .ser{
+	margin: 1rem 0;
+	background-color: #fff;
+	display: block;
+	font-size: 1.4rem;
+	overflow: hidden;
+}
+#main .ser div{
+	float: left;
+	width: 25%;
+	line-height: 2rem;
+	font-size: 1.2rem;
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	border-bottom: 1px solid #efefef;
+	background: center 3rem no-repeat;
+	background-size: 3rem;
+}
+#main .quit{
+	background-color: #fff;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	text-align: center;
+	margin: 1rem 0;
+	margin-top: 3rem;
+	font-size: 1.4rem;
+	margin-bottom: 6rem;
+}
+#footer{
+	display: block;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	height: 5rem;
+	background-color: rgba(246,246,246,.95);
+	font-size: 1.4rem;
+	color: #333;
+}
+#footer li{
+	float: left;
+	position: relative;
+	font-size: 1.2rem;
+	color: #777;
+	text-align: center;
+	background: no-repeat center .6rem;
+	background-size: auto 2rem;
+	padding-top: 3rem;
+	width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

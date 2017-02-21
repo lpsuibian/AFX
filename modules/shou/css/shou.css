@@ -1,0 +1,126 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 11.7188px;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+body{
+	font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	color: #333;
+	background: #fff;
+	min-width: 320px;
+	width: 100%;
+	height: 100px;
+}
+header{
+	border-bottom: 1px solid #e0e0e0;
+	position: relative;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	background-color: #f9fafd;
+	z-index: 2;
+	display: block;
+	font-size: 1.4rem;
+	color: #333;
+}
+header .fan{
+	background-position: left center;
+	text-align: left;
+	position: absolute;
+	left: .6rem;
+	top: 0;
+	width: 6rem;
+	height: 4.4rem;
+	background-repeat: no-repeat;
+	background-size: auto 2.5rem;
+	background-image: url(../img/fan.png);
+}
+header div{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 6rem;
+	right: 6rem;
+	text-align: center;
+	font-weight: 700;
+}
+#main{
+	background-color: #efefef;
+	height: 47rem;
+	border-top: 1rem solid #e0e0e0;
+}
+#main ul{
+	margin-bottom: 1rem;
+	background-color: #fff;
+	display: block;
+}
+#main ul li{
+	position: relative;
+	height: 8rem;
+}
+#main ul li .name{
+	position: absolute;
+	top: .5rem;
+	bottom: .5rem;
+	right: 8rem;
+	left: 0;
+	line-height: 2.8rem;
+	padding-top: .7rem;
+	padding-left: 1rem;
+	border-left: .5rem solid #ffd600;
+}
+#main ul li .name p:nth-of-type(2){
+	color: #999;
+}
+#main ul li .xiu{
+	position: absolute;
+	width: 8rem;
+	height: 5.2rem;
+	top: 1.5rem;
+	right: 0;
+	background: center center no-repeat;
+	background-size: 2.2rem;
+	border-left: 1px solid #e0e0e0;
+	background-image: url(../img/xiu.png);
+}
+footer{
+	border: 1px solid #e0e0e0;
+	border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 5rem;
+	height: 5rem;
+	background-color: #fff;
+}
+footer div{
+	margin: .9rem 20%;
+	height: 3.7rem;
+	line-height: 3.7rem;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #000;
+	background-color: #ffd600;
+	border-radius: .5rem;
+}
+footer div span{
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 11.7188px;
+}
+body{
+	font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	color: #333;
+	background: #fff;
+	min-width: 320px;
+	width: 100%;
+	height: 100px;
+}
+header{
+	border-bottom: 1px solid #e0e0e0;
+	position: relative;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	background-color: #f9fafd;
+	z-index: 2;
+	display: block;
+	font-size: 1.4rem;
+	color: #333;
+}
+header .fan{
+	background-position: left center;
+	text-align: left;
+	position: absolute;
+	left: .6rem;
+	top: 0;
+	width: 6rem;
+	height: 4.4rem;
+	background-repeat: no-repeat;
+	background-size: auto 2.5rem;
+	background-image: url(img/fan.png);
+}
+header div{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 6rem;
+	text-align: center;
+	font-weight: 700;
+}
+header div form{
+	position: relative;
+	display: block;
+	margin-top: .9rem;
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	border-radius: .3rem;
+	font-size: 1.4rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	padding-left: 2.4rem;
+	background: .6rem center no-repeat;
+	background-size: 1.3rem;
+	text-align: left;
+	background-image: url(img/find.png);
+}
+header div form input{
+	border: 0;
+	font-size: 100%;
+	z-index: 2;
+	background-color: #f9fafd;
+}
+header .sou{
+	position: absolute;
+	right: .6rem;
+	top: 0;
+	text-align: center;
+	color: #777;
+	width: 6rem;
+	height: 4.4rem;
+}
+
+#main{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #efefef;
+}
+#main .inner{
+	display: block;
+	font-size: 1.2rem;
+	color: #888;
+	padding-top: 2.5rem;
+	padding-left: 1.5rem;
+	padding-bottom: 3rem;
+}
+#main .inner ul{
+	padding-bottom: 4rem;
+	list-style: none;
+	overflow: hidden;
+}
+#main .inner ul li{
+	float: left;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+	margin: .6rem 1rem .4rem 0;
+	padding: .8rem 1.5rem;
+	border-radius: 2.7rem;
+	color: #000;
+}
+#main .inner div{
+	margin: 0 4.5rem;
+	text-align: center;
+	height: 4rem;
+	font-size: 1.4rem;
+	color: #aaa;
+	border: 1px solid #e0e0e0;
+	border-radius: .5rem;
+	line-height: 4rem;
+
+}
+
+
+
+
+
+

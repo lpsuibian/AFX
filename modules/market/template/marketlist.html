@@ -1,0 +1,21 @@
+<!-- 超市模板 -->
+<script type="text/html" id="shopsjson">
+		<ul>
+			<li></li>
+			<%for (var j = 0; j < list.length; j++) {%>
+				<li>
+					<div>
+						<div class="img"><img src="<%=list[j].img%>"></div>
+						<div class="xiang">
+							<p><%=list[j].name%></p>
+							<p>精选</p>
+							<p><%=list[j].specifics%></p>
+							<p>￥<%=list[j].price%> <span>￥<%=list[j].market_price%></span></p>
+							<p><span class="addcar"></span></p>
+						</div>
+					</div>
+				</li>
+			<%}%>
+		</ul>
+		<div class="blank"></div>
+</script>

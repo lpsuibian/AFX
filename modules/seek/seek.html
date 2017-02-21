@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索</title>
+	<meta name = "viewport" content = "width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="seek.css">
+</head>
+<body>
+	<header>
+		<span class="fan"></span>
+		<div>
+			<form>
+				<input type="search" maxlength="10" placeholder="请输入商品名称">
+			</form>
+		</div>
+		<span class="sou">搜索</span>
+	</header>
+	<div id="main">
+		<div class="outter">
+			<div class="inner">
+				<span>热门搜索</span>
+				<ul>
+					<li>酸奶</li>
+					<li>啤酒</li>
+					<li>口罩</li>
+					<li>月盛斋</li>
+					<li>方便面</li>
+					<li>飘香</li>
+				</ul>
+				<span>历史记录</span>
+				<ul>
+					<li>酸奶</li>
+				</ul>
+				<div>清空历史</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	document.getElementsByClassName('fan')[0].onclick = function(){
+		history.back()
+	};
+</script>
+</html>
